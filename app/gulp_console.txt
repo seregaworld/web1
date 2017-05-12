@@ -1,0 +1,6 @@
+gulp scripts  /*берем все файлы *.js которые подключаем и сливаем в один libs.min.js
+который можем подключить к index.html; в libs.min.js эти js собраны в кучку убраны пробелы*/
+gulp css-libs
+gulp css-libs1 /*берем файлы style.css/normalize.css и минимизируем соответвенно в 
+style.min.css/normalize.min.css которые можем подключить к index.html*/
+gulp img  /*Берем все изображения из app; Сжимаем их с наилучшими настройками с учетом кеширования*/	
